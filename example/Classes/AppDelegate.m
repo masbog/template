@@ -10,7 +10,7 @@
 
 @synthesize window;
 
-- (void)applicationDidFinishLaunching: (UIApplication *) application
+- (void) applicationDidFinishLaunching: (UIApplication *) application
 {
     	window      = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     	glView      = [[EAGLView alloc] initWithFrame: window.frame];
@@ -32,7 +32,7 @@
 	    [glView startAnimation];
 }
 
-- (void)applicationWillTerminate: (UIApplication *) application
+- (void) applicationWillTerminate: (UIApplication *) application
 {
 	    [glView stopAnimation];
 }

@@ -18,6 +18,7 @@
 		563FA4F5160064E90037FD7B /* libFoundation.so in Copy Files (libs) */ = {isa = PBXBuildFile; fileRef = 0d49550fbe63dd4b9c0b6098 /* libFoundation.so */; };
 		563FA4F6160064E90037FD7B /* libStellaGraphics.so in Copy Files (libs) */ = {isa = PBXBuildFile; fileRef = e37c05cb8f426807403ece23 /* libStellaGraphics.so */; };
 		563FA4F7160064E90037FD7B /* libStellaKit.so in Copy Files (libs) */ = {isa = PBXBuildFile; fileRef = e656c59691b08d3a8aec1f95 /* libStellaKit.so */; };
+		565E4AC31612867600CBADBD /* Info-Stella.plist in Copy Files (assets) */ = {isa = PBXBuildFile; fileRef = 565E4AC11612866800CBADBD /* Info-Stella.plist */; };
 		613b59c54ee0ee8f7d484490 /* libStellaKit.so in Copy Files (libs) */ = {isa = PBXBuildFile; fileRef = e656c59691b08d3a8aec1f95 /* libStellaKit.so */; };
 		6fce77d576827ad04ae66144 /* libopenal.so in Copy Files (libs) */ = {isa = PBXBuildFile; fileRef = ec627326f1255e11617930b9 /* libopenal.so */; };
 		8f1b27725683da30bcf9e328 /* libfreetype.so in Copy Files (libs) */ = {isa = PBXBuildFile; fileRef = 7544245706e48d6a824f6518 /* libfreetype.so */; };
@@ -32,6 +33,7 @@
 			dstPath = "$(SOURCE_ROOT)/$(PRODUCT_NAME)-android/assets/Resources";
 			dstSubfolderSpec = 0;
 			files = (
+				565E4AC31612867600CBADBD /* Info-Stella.plist in Copy Files (assets) */,
 			);
 			name = "Copy Files (assets)";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,20 +83,16 @@
 /* Begin PBXFileReference section */
 		002207573a51c827fde50f99 /* libStellaStore.so */ = {isa = PBXFileReference; lastKnownFileType = file; name = libStellaStore.so; path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaStore.so"; sourceTree = "<absolute>"; };
 		0d49550fbe63dd4b9c0b6098 /* libFoundation.so */ = {isa = PBXFileReference; lastKnownFileType = file; name = libFoundation.so; path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so"; sourceTree = "<absolute>"; };
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* libexample.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libexample.so; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
-		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		563FA4E5160064E70037FD7B /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		563FA4E6160064E70037FD7B /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		563FA4FB160064EA0037FD7B /* libcommon.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libcommon.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		565E4AC11612866800CBADBD /* Info-Stella.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Stella.plist"; sourceTree = "<group>"; };
 		7544245706e48d6a824f6518 /* libfreetype.so */ = {isa = PBXFileReference; lastKnownFileType = file; name = libfreetype.so; path = "/opt/StellaSDK/arm-google-android/usr/lib/libfreetype.so"; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		d96bed0fb3eeacff6139c37f /* android-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "android-main.m"; path = "/opt/StellaSDK/share/android/jni/android-main.m"; sourceTree = "<absolute>"; };
@@ -148,7 +146,6 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				563FA4E3160064E60037FD7B /* Common */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				e130444b9d1037ddd3abf8aa /* External frameworks */,
 			);
@@ -167,20 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				8D1107310486CEB800E47090 /* Info.plist */,
+				565E4AC11612866800CBADBD /* Info-Stella.plist */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
-				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
-				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		49677deffccd644d82d66d3d /* System frameworks */ = {
@@ -337,7 +323,6 @@
 					"-Wl,--no-undefined",
 				);
 				PRODUCT_NAME = example;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -378,7 +363,6 @@
 					"-s",
 				);
 				PRODUCT_NAME = example;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -417,7 +401,6 @@
 					"-Wl,--no-undefined",
 				);
 				PRODUCT_NAME = common;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -456,7 +439,6 @@
 					"-s",
 				);
 				PRODUCT_NAME = common;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};

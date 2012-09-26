@@ -12,7 +12,6 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
 		354f8eaa91676ef656615dae /* StellaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6663887ebc706fb9d8a7bc79 /* StellaKit.framework */; };
 		563FA4DD160062A80037FD7B /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 563FA4DC160062A80037FD7B /* Common.m */; };
-		563FA4FD160065E00037FD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		7a89b859429947ed24700951 /* libGL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 46c60494b00cba0378dcef60 /* libGL.dylib */; };
 		bbae2ab69808a11d7931f9a3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9bff62be53a7baa734516390 /* Foundation.framework */; };
 		bed442f2ad40bf346e95bd5e /* StellaGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69a556b2f2938f0170d07a0a /* StellaGraphics.framework */; };
@@ -20,22 +19,16 @@
 
 /* Begin PBXFileReference section */
 		17d39017a083d1ea97465f7c /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
-		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		261bfdf747e7afa58566520b /* cocos2d.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cocos2d.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/cocos2d.framework; sourceTree = "<absolute>"; };
 		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
-		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3ddaca9e705e9f24f60320c4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		46c60494b00cba0378dcef60 /* libGL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGL.dylib; path = /usr/X11/lib/libGL.dylib; sourceTree = "<absolute>"; };
-		563FA4CD160062A80037FD7B /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		563FA4CE160062A80037FD7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		563FA4D1160062A80037FD7B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		563FA4D2160062A80037FD7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		563FA4D3160062A80037FD7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		563FA4CD160062A80037FD7B /* common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		563FA4DB160062A80037FD7B /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		563FA4DC160062A80037FD7B /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		6663887ebc706fb9d8a7bc79 /* StellaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StellaKit.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/StellaKit.framework; sourceTree = "<absolute>"; };
@@ -62,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563FA4FD160065E00037FD7B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* example.app */,
-				563FA4CD160062A80037FD7B /* Common.framework */,
+				563FA4CD160062A80037FD7B /* common.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +100,6 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				563FA46F160042FA0037FD7B /* Resources */,
 				563FA4D4160062A80037FD7B /* Common */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				e130444b9d1037ddd3abf8aa /* External frameworks */,
 			);
@@ -121,17 +112,6 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
-				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				563FA4CE160062A80037FD7B /* Cocoa.framework */,
-				563FA4D0160062A80037FD7B /* Other Frameworks */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		49677deffccd644d82d66d3d /* System frameworks */ = {
@@ -151,16 +131,6 @@
 			children = (
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		563FA4D0160062A80037FD7B /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				563FA4D1160062A80037FD7B /* AppKit.framework */,
-				563FA4D2160062A80037FD7B /* CoreData.framework */,
-				563FA4D3160062A80037FD7B /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		563FA4D4160062A80037FD7B /* Common */ = {
@@ -232,7 +202,7 @@
 			);
 			name = common;
 			productName = Common;
-			productReference = 563FA4CD160062A80037FD7B /* Common.framework */;
+			productReference = 563FA4CD160062A80037FD7B /* common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -318,7 +288,6 @@
 				LIBRARY_SEARCH_PATHS = /usr/X11/lib;
 				OTHER_CFLAGS = "-D__STELLA_VERSION_MAX_ALLOWED";
 				PRODUCT_NAME = example;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -338,7 +307,6 @@
 				LIBRARY_SEARCH_PATHS = /usr/X11/lib;
 				OTHER_CFLAGS = "-D__STELLA_VERSION_MAX_ALLOWED";
 				PRODUCT_NAME = example;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -355,7 +323,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -366,7 +333,6 @@
 				COPY_PHASE_STRIP = YES;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -419,6 +385,7 @@
 				563FA4E0160062A80037FD7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "example-mac" */ = {
 			isa = XCConfigurationList;

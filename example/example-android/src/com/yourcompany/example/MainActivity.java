@@ -8,7 +8,7 @@ import android.widget.VideoView;
 
 public class MainActivity extends StellaNativeActivity
 {
-        static 
+        static
         {
 
                 System.loadLibrary ("freetype");

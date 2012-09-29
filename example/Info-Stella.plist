@@ -4,9 +4,9 @@
 <dict>
     <key>StellaSimulatorMode</key>
     <string>GALAXY_SII</string>
-	<key>StellaUserInterfaceIdiom</key>
-	<string>StellaUserInterfaceIdiomPhone</string>
-	<key>StellaPublishingLicenceKey</key>
-	<string>STELLA_PUBLISHING_LICENCE_KEY</string>
+    <key>StellaUserInterfaceIdiom</key>
+    <string>StellaUserInterfaceIdiomPhone</string>
+    <key>StellaPublishingLicenceKey</key>
+    <string>STELLA_PUBLISHING_LICENCE_KEY</string>
 </dict>
 </plist>

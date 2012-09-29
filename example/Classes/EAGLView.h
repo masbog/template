@@ -30,13 +30,13 @@
 
 - (BOOL) createFramebuffer;
 - (void) destroyFramebuffer;
-- (void) setupView;
 
 - (NSInteger) animationFrameInterval;
 - (void) setAnimationFrameInterval: (NSInteger) frameInterval;
 
 - (void) startAnimation;
 - (void) stopAnimation;
+- (void) setupView;
 - (void) drawView;
 
 @end

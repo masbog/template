@@ -12,7 +12,7 @@
         IBOutlet EAGLView     * glView;
 }
 
-@property (nonatomic, retain) UIWindow    * window;
+@property(nonatomic, retain) UIWindow      * window;
 
 - (void) applicationDidFinishLaunching: (UIApplication *) application;
 - (void) applicationWillResignActive: (UIApplication *) application;

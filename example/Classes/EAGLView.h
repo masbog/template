@@ -9,20 +9,20 @@
 
 @interface EAGLView : UIView
 {
-	    GLint               backingWidth;
-	    GLint               backingHeight;
-	
-	    EAGLContext       * context;
-	
-	    GLuint              viewRenderbuffer, viewFramebuffer;
-	    GLuint              depthRenderbuffer;
-	
-	    GLuint              spriteTexture;
-	
-	    BOOL                animating;
-	    NSInteger           animationFrameInterval;
+        GLint               backingWidth;
+        GLint               backingHeight;
 
-	    id                  displayLink;
+        EAGLContext       * context;
+
+        GLuint              viewRenderbuffer, viewFramebuffer;
+        GLuint              depthRenderbuffer;
+
+        GLuint              spriteTexture;
+
+        BOOL                animating;
+        NSInteger           animationFrameInterval;
+
+        id                  displayLink;
 }
 
 @property(readonly, nonatomic, getter=isAnimating) BOOL     animating;
